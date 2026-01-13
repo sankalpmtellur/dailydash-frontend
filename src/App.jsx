@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Launch from "../src/pages/Launch.jsx";
-import Login from "../src/pages/Login.jsx";
-import Signup from "../src/pages/Signup.jsx";
-import Forgot from "../src/pages/Forgot.jsx";
+import Launch from "./pages/Launch.jsx";
+import Login from "./pages/Login.jsx";
+import Signup from "./pages/Signup.jsx";
+import Forgot from "./pages/Forgot.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import ActivityLogs from "./pages/ActivityLogs.jsx";
 import Analytics from "./pages/Analytics.jsx";
