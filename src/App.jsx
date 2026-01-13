@@ -9,6 +9,7 @@ import Analytics from "./pages/Analytics.jsx";
 import Goals from "./pages/Goals.jsx";
 import Settings from "./pages/Settings.jsx";
 import Profile from "./pages/Profile.jsx";
+import Demo from "./pages/Demo/Demo.jsx";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/goals" element={<Goals />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/demo" element={<Demo />} />
       </Routes>
     </Router>
   );
