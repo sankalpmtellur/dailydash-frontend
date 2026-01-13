@@ -3,6 +3,10 @@ import Launch from "../src/pages/Launch.jsx";
 import Login from "../src/pages/Login.jsx";
 import Signup from "../src/pages/Signup.jsx";
 import Forgot from "../src/pages/Forgot.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import ActivityLogs from "./pages/ActivityLogs.jsx";
+import Analytics from "./pages/Analytics.jsx";
+import Goals from "./pages/Goals.jsx";
 
 function App() {
   return (
@@ -12,6 +16,10 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/forgot" element={<Forgot />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/logs" element={<ActivityLogs />} />
+        <Route path="/analytics" element={<Analytics />} />
+        <Route path="/goals" element={<Goals />} />
       </Routes>
     </Router>
   );
