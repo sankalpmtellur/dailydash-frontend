@@ -30,7 +30,7 @@ const Launch = () => {
           Quantify your <span className="text-indigo-600">entire day.</span>
         </h1>
         <p className="text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed mb-12">
-          Stop wondering where your hours went. Log any activity, visualize your
+          Stop wondering where your hours went. Log any activity, visualise your
           intensity, and master your daily efficiency with a custom commit-style
           dashboard.
         </p>
