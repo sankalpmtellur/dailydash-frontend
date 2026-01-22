@@ -92,43 +92,6 @@ const Dashboard = () => {
           />
         </div>
 
-        <section className="bg-white p-6 rounded-[28px] border border-slate-200 shadow-sm mb-8">
-          <div className="flex justify-between items-center mb-6">
-            <div>
-              <h2 className="text-lg font-bold text-slate-900">
-                Consistency Map
-              </h2>
-              <p className="text-slate-400 text-xs mt-0.5 font-medium">
-                Tracking your intensity over the last 30 days
-              </p>
-            </div>
-            <div className="flex items-center gap-2 text-[9px] text-slate-400 font-bold uppercase tracking-widest">
-              <span>Less</span>
-              <div className="flex gap-1">
-                {[10, 30, 60, 100].map((op) => (
-                  <div
-                    key={op}
-                    className={`w-3 h-3 rounded-[3px] bg-indigo-600 opacity-${op}`}
-                  ></div>
-                ))}
-              </div>
-              <span>More</span>
-            </div>
-          </div>
-          <div className="flex gap-1.5 overflow-x-auto pb-2 custom-scrollbar">
-            {[...Array(30)].map((_, col) => (
-              <div key={col} className="flex flex-col gap-1.5 flex-shrink-0">
-                {[...Array(7)].map((_, row) => (
-                  <div
-                    key={row}
-                    className="w-3.5 h-3.5 rounded-[3px] bg-indigo-600 opacity-10 hover:scale-110 hover:opacity-100 transition-all cursor-pointer"
-                  ></div>
-                ))}
-              </div>
-            ))}
-          </div>
-        </section>
-
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-4">
             <h3 className="text-lg font-bold text-slate-900 px-1">
